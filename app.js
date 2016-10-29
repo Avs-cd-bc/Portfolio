@@ -11,6 +11,18 @@ app.get("/", function(req,res){
   res.sendFile(path.join(__dirname, "./views/index.html"));
 });
 
+app.get("/images/ithub", function(req, res){
+  res.sendFile(path.join(__dirname, "./images/GitHub_Logo.png"));
+});
+
+app.get("/images/github-mark", function(req, res){
+  res.sendFile(path.join(__dirname, "./images/GitHub-Mark-32px.png"));
+});
+
+app.get("/images/github", function(req, res){
+  res.sendFile(path.join(__dirname, "./images/GitHub_Logo.png"));
+});
+
 app.listen(port, function(){
   console.log("Hello world is running!");
 });
