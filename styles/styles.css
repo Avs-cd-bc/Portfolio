@@ -1,0 +1,5 @@
+.bkgrnd {
+  background-color: grey;
+  background-image: url('../images/background.png');
+  background-size: cover;
+}
