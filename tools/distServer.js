@@ -10,7 +10,7 @@ const app = express();//we need an instance of express
 app.use(express.static("dist"));
 
 //our index location - the starting point for our site
-app.get('/', function(req, res) {
+app.get('/*', function(req, res) {
   res.sendFile(path.join( __dirname, './dist/index.html'));
 });
 

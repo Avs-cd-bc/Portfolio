@@ -18,7 +18,7 @@ var app = (0, _express2.default)(); //we need an instance of express
 app.use(_express2.default.static("dist"));
 
 //our index location - the starting point for our site
-app.get('/', function (req, res) {
+app.get('/*', function (req, res) {
   res.sendFile(_path2.default.join(__dirname, './dist/index.html'));
 });
 
