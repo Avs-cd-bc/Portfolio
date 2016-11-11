@@ -11,13 +11,11 @@ class Nav extends React.Component{
 
   render(){
     return(
-      <nav>
-      <IndexLink to="/">Home</IndexLink>
-      {" "}
-      <Link to ="/projects">My Projects</Link>
-      {" "}
-      <Link to = "/sources">Sources</Link>
-      </nav>
+      <div id="topNav">
+        <IndexLink to="/">Home</IndexLink>
+        <Link to ="/projects">My Projects</Link>
+        <Link to = "/sources">Sources</Link>
+      </div>
     );
   }
 }

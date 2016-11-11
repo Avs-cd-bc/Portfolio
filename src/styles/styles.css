@@ -1,0 +1,30 @@
+body{
+  font-family: sans-serif;
+  background-color: gray;
+}
+
+
+#topNav{
+  height: 30px;
+  background-color: lightgray;
+  font-size: large;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+#topNav a{
+  display: inline-block;
+  text-decoration: none;
+  margin-top: -10px;
+  padding-top: 15px;
+  padding-bottom: 14px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#topNav a:hover{
+  text-decoration: none;
+  color: white;
+  background-color: darkgray;
+}

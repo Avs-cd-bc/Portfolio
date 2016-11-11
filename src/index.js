@@ -13,7 +13,7 @@ import routes from "./routes";//getting the routes
 
 import configureStore from "./store/configureStore";
 import "./styles/styles.css";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+//import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import {Provider} from "react-redux";
 import request from "superagent-bluebird-promise";
 
